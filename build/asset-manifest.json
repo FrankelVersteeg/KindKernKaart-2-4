@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kindkernkaart-2-4/static/css/main.256af3f0.css",
-    "main.js": "/kindkernkaart-2-4/static/js/main.1d947fc4.js",
-    "static/js/453.ccffdcd0.chunk.js": "/kindkernkaart-2-4/static/js/453.ccffdcd0.chunk.js",
-    "index.html": "/kindkernkaart-2-4/index.html",
-    "main.256af3f0.css.map": "/kindkernkaart-2-4/static/css/main.256af3f0.css.map",
-    "main.1d947fc4.js.map": "/kindkernkaart-2-4/static/js/main.1d947fc4.js.map",
-    "453.ccffdcd0.chunk.js.map": "/kindkernkaart-2-4/static/js/453.ccffdcd0.chunk.js.map"
+    "main.css": "/KindKernKaart-2-4/static/css/main.256af3f0.css",
+    "main.js": "/KindKernKaart-2-4/static/js/main.59df7755.js",
+    "static/js/453.ccffdcd0.chunk.js": "/KindKernKaart-2-4/static/js/453.ccffdcd0.chunk.js",
+    "index.html": "/KindKernKaart-2-4/index.html",
+    "main.256af3f0.css.map": "/KindKernKaart-2-4/static/css/main.256af3f0.css.map",
+    "main.59df7755.js.map": "/KindKernKaart-2-4/static/js/main.59df7755.js.map",
+    "453.ccffdcd0.chunk.js.map": "/KindKernKaart-2-4/static/js/453.ccffdcd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.256af3f0.css",
-    "static/js/main.1d947fc4.js"
+    "static/js/main.59df7755.js"
   ]
 }
