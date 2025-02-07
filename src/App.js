@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 const topics = [
   "Voorspelbaarheid en grenzen",
   "Structuur",
-  "Nabijheid",
+  "Nabijheid van kinderen",
+  "Nabijheid van professional",
   "Aandacht",
   "Positieve communicatie, bekrachtiging en waardering",
   "Uitdaging en stimuleren van de ontwikkeling",
@@ -29,12 +30,19 @@ const adviezen = {
     Meer: "Er is een dagprogramma (visueel aanbieden).\nHet dagprogramma komt (in grote lijnen) dagelijks terug.\nDe plek waar de activiteit plaatsvindt, wordt in het dagprogramma aangegeven.\nWat de activiteit is hoeft niet van tevoren vast te staan.",
     Veel: "Er is een dagprogramma (visueel aanbieden).\nHet dagprogramma komt (in grote lijnen) dagelijks terug.\nDe plek waar de activiteit plaatsvindt, wordt in het dagprogramma aangegeven.\nMaar ook de activiteit.\nEr wordt niet afgeweken van het dagprogramma."
   },
-  "Nabijheid": {
-    Weinig: "Er is een volwassene binnen de groep.\nHet kind krijgt voor een bepaalde tijd een plek in de ruimte toegewezen, waar het zonder het storen van andere kinderen kan spelen.\nFysieke afscherming.",
-    Minder: "Er is een bekende volwassene binnen de groep.\nDie op het kind let.\nHet kind krijgt voor een bepaalde tijd een plek in de ruimte toegewezen, waar het zonder het storen van andere kinderen kan spelen.",
-    Neutraal: "Er is een vertrouwde volwassene binnen de groep.\nGroepsgenoten bewegen zich vrij door de ruimte.",
-    Meer: "Er is een vertrouwde volwassene in een straal van 5 meter van het kind.\nEr is genoeg tijd en ruimte binnen het dagprogramma om andere kinderen op te zoeken in het spel.",
-    Veel: "Er is een vertrouwde volwassene nabij genoeg dat het kind er direct fysiek contact mee kan zoeken.\nEr is genoeg tijd en ruimte binnen het dagprogramma om andere kinderen op te zoeken in het spel."
+"Nabijheid van kinderen": {
+    Weinig: "Creëer een afgeschermde speelplek binnen de groepsruimte.\nBied activiteiten aan die individueel gedaan kunnen worden.\nGeef mogelijkheid om aan de rand van de groep mee te doen.",
+    Minder: "Bied een vaste speelplek zonder afscherming.\nOrganiseer activiteiten voor kleine groepjes (2-3 kinderen).\nZorg voor rustige speelzones als uitwijkmogelijkheid.",
+    Neutraal: "Geef ruimte om vrij te bewegen door de groep.\nLaat kind zelf kiezen waar en bij wie het speelt.\nZorg voor een natuurlijke verdeling van kinderen over de ruimte.",
+    Meer: "Creëer speelplekken waar kinderen samen kunnen zijn.\nNodig kind uit bij groepsactiviteiten.\nStimuleer gezamenlijke spelmomenten.",
+    Veel: "Organiseer veel groepsactiviteiten.\nCreëer plekken die gezamenlijk spel uitlokken.\nBegeleid actief bij het samenspel met andere kinderen."
+  },
+"Nabijheid van professional": {
+    Weinig: "Er is een volwassene aanwezig in de groepsruimte.\nProfessional heeft zicht op het kind.\nProfessional is bereikbaar voor het kind.",
+    Minder: "Er is een bekende volwassene in de groepsruimte.\nProfessional is zichtbaar voor het kind.\nKind kan de professional gemakkelijk vinden/bereiken.",
+    Neutraal: "Er is een vertrouwde volwassene in de groepsruimte.\nProfessional is beschikbaar voor het kind.",
+    Meer: "Professional bevindt zich in dezelfde hoek/zone van de groepsruimte als het kind.\nProfessional zorgt dat het kind altijd kan zien waar hij/zij is.\nExtra aanwezigheid tijdens overgangsmomenten.",
+    Veel: "Professional blijft dicht bij het kind.\nProfessional is binnen armlengte beschikbaar.\nProfessional begeleidt het kind actief bij activiteiten.\nEr is een bekende volwassene in de groepsruimte.\nProfessional blijft in direct zicht van het kind."
   },
   "Aandacht": {
     Weinig: "Kind gedurende de dag 'zien'.\nEr is gedeelde aandacht op initiatief van het kind.\nEr wordt op het kind gelet en het wordt behoed voor gevaarlijke situaties.",
